@@ -1,0 +1,576 @@
+export default defineEventHandler((event) => {
+  return {
+    data: [
+      {
+        name: "Gemma",
+        images: [
+          {
+            itemImageSrc: "/escultura/Gemma/gemma1.jpg",
+            thumbnailImageSrc: "/escultura/Gemma/gemma1_mini.jpg",
+            alt: "Gemma 1",
+            title: "Gemma 1",
+          },
+          {
+            itemImageSrc: "/escultura/Gemma/gemma2.jpg",
+            thumbnailImageSrc: "/escultura/Gemma/gemma2_mini.jpg",
+            alt: "Gemma 2",
+            title: "Gemma 2",
+          },
+          {
+            itemImageSrc: "/escultura/Gemma/gemma3.jpg",
+            thumbnailImageSrc: "/escultura/Gemma/gemma3_mini.jpg",
+            alt: "Gemma 3",
+            title: "Gemma 3",
+          },
+          {
+            itemImageSrc: "/escultura/Gemma/gemma4.jpg",
+            thumbnailImageSrc: "/escultura/Gemma/gemma4_mini.jpg",
+            alt: "Gemma 4",
+            title: "Gemma 4",
+          },
+          {
+            itemImageSrc: "/escultura/Gemma/gemma5.jpg",
+            thumbnailImageSrc: "/escultura/Gemma/gemma5_mini.jpg",
+            alt: "Gemma 5",
+            title: "Gemma 5",
+          },
+          {
+            itemImageSrc: "/escultura/Gemma/gemma6.jpg",
+            thumbnailImageSrc: "/escultura/Gemma/gemma6_mini.jpg",
+            alt: "Gemma 6",
+            title: "Gemma 6",
+          },
+          {
+            itemImageSrc: "/escultura/Gemma/gemma7.jpg",
+            thumbnailImageSrc: "/escultura/Gemma/gemma7_mini.jpg",
+            alt: "Gemma 7",
+            title: "Gemma 7",
+          },
+        ],
+      },
+      {
+        name: "Stefano",
+        images: [
+          {
+            itemImageSrc: "/escultura/Torso_Stefano_2015/COMIENZO.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Stefano_2015/COMIENZO.jpg",
+            alt: "Stefano 1",
+            title: "Stefano 1",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Stefano_2015/IMG_1483.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Stefano_2015/IMG_1483.jpg",
+            alt: "Stefano 2",
+            title: "Stefano 2",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Stefano_2015/IMG_1485.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Stefano_2015/IMG_1485.jpg",
+            alt: "Stefano 3",
+            title: "Stefano 3",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Stefano_2015/IMG_1486.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Stefano_2015/IMG_1486.jpg",
+            alt: "Stefano 4",
+            title: "Stefano 4",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Stefano_2015/IMG_1487.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Stefano_2015/IMG_1487.jpg",
+            alt: "Stefano 5",
+            title: "Stefano 5",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Stefano_2015/IMG_1491.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Stefano_2015/IMG_1491.jpg",
+            alt: "Stefano 6",
+            title: "Stefano 6",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Stefano_2015/IMG_1492.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Stefano_2015/IMG_1492.jpg",
+            alt: "Stefano 7",
+            title: "Stefano 7",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Stefano_2015/IMG_1509.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Stefano_2015/IMG_1509.jpg",
+            alt: "Stefano 8",
+            title: "Stefano 8",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Stefano_2015/IMG_1539.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Stefano_2015/IMG_1539.jpg",
+            alt: "Stefano 9",
+            title: "Stefano 9",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Stefano_2015/IMG_1540.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Stefano_2015/IMG_1540.jpg",
+            alt: "Stefano 10",
+            title: "Stefano 10",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Stefano_2015/IMG_1541.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Stefano_2015/IMG_1541.jpg",
+            alt: "Stefano 11",
+            title: "Stefano 11",
+          },
+        ],
+      },
+      {
+        name: "Emanuele",
+        images: [
+          {
+            itemImageSrc: "/escultura/Emanuele/COMIENZA.jpg",
+            thumbnailImageSrc: "/escultura/Emanuele/COMIENZA.jpg",
+            alt: "Emanuele 1",
+            title: "Emanuele 1",
+          },
+          {
+            itemImageSrc: "/escultura/Emanuele/IMG_1293.jpg",
+            thumbnailImageSrc: "/escultura/Emanuele/IMG_1293.jpg",
+            alt: "Emanuele 2",
+            title: "Emanuele 2",
+          },
+          {
+            itemImageSrc: "/escultura/Emanuele/IMG_1294.jpg",
+            thumbnailImageSrc: "/escultura/Emanuele/IMG_1294.jpg",
+            alt: "Emanuele 3",
+            title: "Emanuele 3",
+          },
+          {
+            itemImageSrc: "/escultura/Emanuele/IMG_1301.jpg",
+            thumbnailImageSrc: "/escultura/Emanuele/IMG_1301.jpg",
+            alt: "Emanuele 4",
+            title: "Emanuele 4",
+          },
+          {
+            itemImageSrc: "/escultura/Emanuele/IMG_1303.jpg",
+            thumbnailImageSrc: "/escultura/Emanuele/IMG_1303.jpg",
+            alt: "Emanuele 5",
+            title: "Emanuele 5",
+          },
+          {
+            itemImageSrc: "/escultura/Emanuele/IMG_1305.jpg",
+            thumbnailImageSrc: "/escultura/Emanuele/IMG_1305.jpg",
+            alt: "Emanuele 6",
+            title: "Emanuele 6",
+          },
+          {
+            itemImageSrc: "/escultura/Emanuele/IMG_1306.jpg",
+            thumbnailImageSrc: "/escultura/Emanuele/IMG_1306.jpg",
+            alt: "Emanuele 7",
+            title: "Emanuele 7",
+          },
+          {
+            itemImageSrc: "/escultura/Emanuele/photo_VII.jpg",
+            thumbnailImageSrc: "/escultura/Emanuele/photo_VII.jpg",
+            alt: "Emanuele 8",
+            title: "Emanuele 8",
+          },
+        ],
+      },
+      {
+        name: "Valentino",
+        images: [
+          {
+            itemImageSrc: "/escultura/Torso_Valentino_2014/COMIENZO.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Valentino_2014/COMIENZO.jpg",
+            alt: "Valentino 1",
+            title: "Valentino 1",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Valentino_2014/IMG_6976.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Valentino_2014/IMG_6976.jpg",
+            alt: "Valentino 2",
+            title: "Valentino 2",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Valentino_2014/IMG_6983.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Valentino_2014/IMG_6983.jpg",
+            alt: "Valentino 3",
+            title: "Valentino 3",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Valentino_2014/IMG_6986.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Valentino_2014/IMG_6986.jpg",
+            alt: "Valentino 4",
+            title: "Valentino 4",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Valentino_2014/IMG_6988.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Valentino_2014/IMG_6988.jpg",
+            alt: "Valentino 5",
+            title: "Valentino 5",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Valentino_2014/IMG_6990.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Valentino_2014/IMG_6990.jpg",
+            alt: "Valentino 6",
+            title: "Valentino 6",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Valentino_2014/IMG_6991.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Valentino_2014/IMG_6991.jpg",
+            alt: "Valentino 7",
+            title: "Valentino 7",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Valentino_2014/IMG_6995.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Valentino_2014/IMG_6995.jpg",
+            alt: "Valentino 8",
+            title: "Valentino 8",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Valentino_2014/IMG_6999.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Valentino_2014/IMG_6999.jpg",
+            alt: "Valentino 9",
+            title: "Valentino 9",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Valentino_2014/IMG_7000.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Valentino_2014/IMG_7000.jpg",
+            alt: "Valentino 10",
+            title: "Valentino 10",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Valentino_2014/IMG_7003.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Valentino_2014/IMG_7003.jpg",
+            alt: "Valentino 11",
+            title: "Valentino 11",
+          },
+        ],
+      },
+      {
+        name: "retrat2013",
+        images: [
+          {
+            itemImageSrc: "/escultura/Portrait_2013/COMENZAR.jpg",
+            thumbnailImageSrc: "/escultura/Portrait_2013/COMENZAR.jpg",
+            alt: "Portrait 1",
+            title: "Portrait 1",
+          },
+          {
+            itemImageSrc: "/escultura/Portrait_2013/IMG_1343.jpg",
+            thumbnailImageSrc: "/escultura/Portrait_2013/IMG_1343.jpg",
+            alt: "Portrait 2",
+            title: "Portrait 2",
+          },
+          {
+            itemImageSrc: "/escultura/Portrait_2013/Photo_i.jpg",
+            thumbnailImageSrc: "/escultura/Portrait_2013/Photo_i.jpg",
+            alt: "Portrait 3",
+            title: "Portrait 3",
+          },
+        ],
+      },
+      {
+        name: "retrat2015",
+        images: [
+          {
+            itemImageSrc: "/escultura/Self_Portrait_2015/COMENZAR.jpg",
+            thumbnailImageSrc: "/escultura/Self_Portrait_2015/COMENZAR.jpg",
+            alt: "Portrait 1",
+            title: "Portrait 1",
+          },
+          {
+            itemImageSrc: "/escultura/Self_Portrait_2015/IMG_1778.jpg",
+            thumbnailImageSrc: "/escultura/Self_Portrait_2015/IMG_1778.jpg",
+            alt: "Portrait 2",
+            title: "Portrait 2",
+          },
+          {
+            itemImageSrc: "/escultura/Self_Portrait_2015/IMG_1780.jpg",
+            thumbnailImageSrc: "/escultura/Self_Portrait_2015/IMG_1780.jpg",
+            alt: "Portrait 3",
+            title: "Portrait 3",
+          },
+          {
+            itemImageSrc: "/escultura/Self_Portrait_2015/IMG_1784.jpg",
+            thumbnailImageSrc: "/escultura/Self_Portrait_2015/IMG_1784.jpg",
+            alt: "Portrait 4",
+            title: "Portrait 4",
+          },
+          {
+            itemImageSrc: "/escultura/Self_Portrait_2015/IMG_1785.jpg",
+            thumbnailImageSrc: "/escultura/Self_Portrait_2015/IMG_1785.jpg",
+            alt: "Portrait 5",
+            title: "Portrait 5",
+          },
+        ],
+      },
+      {
+        name: "calabera",
+        images: [
+          {
+            itemImageSrc: "/escultura/Skull_2013/IMG_1270.jpg",
+            thumbnailImageSrc: "/escultura/Skull_2013/IMG_1270.jpg",
+            alt: "Skull 1",
+            title: "Skull 1",
+          },
+          {
+            itemImageSrc: "/escultura/Skull_2013/Photo_XI.jpg",
+            thumbnailImageSrc: "/escultura/Skull_2013/Photo_XI.jpg",
+            alt: "Skull 2",
+            title: "Skull 2",
+          },
+        ],
+      },
+      {
+        name: "Liana",
+        images: [
+          {
+            itemImageSrc: "/escultura/Torso_Liana_2014/COMENZAR.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Liana_2014/COMENZAR.jpg",
+            alt: "Liana 1",
+            title: "Liana 1",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Liana_2014/IMG_1185.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Liana_2014/IMG_1185.jpg",
+            alt: "Liana 2",
+            title: "Liana 2",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Liana_2014/IMG_1188.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Liana_2014/IMG_1188.jpg",
+            alt: "Liana 3",
+            title: "Liana 3",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Liana_2014/IMG_1190.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Liana_2014/IMG_1190.jpg",
+            alt: "Liana 4",
+            title: "Liana 4",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Liana_2014/IMG_1194.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Liana_2014/IMG_1194.jpg",
+            alt: "Liana 5",
+            title: "Liana 5",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Liana_2014/IMG_1198.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Liana_2014/IMG_1198.jpg",
+            alt: "Liana 6",
+            title: "Liana 6",
+          },
+          {
+            itemImageSrc: "/escultura/Torso_Liana_2014/Photo_XII.jpg",
+            thumbnailImageSrc: "/escultura/Torso_Liana_2014/Photo_XII.jpg",
+            alt: "Liana 7",
+            title: "Liana 7",
+          },
+        ],
+      },
+      {
+        name: "Angela",
+        images: [
+          {
+            itemImageSrc: "/escultura/Angela_2013/COMIENZO.jpg",
+            thumbnailImageSrc: "/escultura/Angela_2013/COMIENZO.jpg",
+            alt: "Angela 1",
+            title: "Angela 1",
+          },
+          {
+            itemImageSrc: "/escultura/Angela_2013/IMG_1277.jpg",
+            thumbnailImageSrc: "/escultura/Angela_2013/IMG_1277.jpg",
+            alt: "Angela 2",
+            title: "Angela 2",
+          },
+          {
+            itemImageSrc: "/escultura/Angela_2013/IMG_1278.jpg",
+            thumbnailImageSrc: "/escultura/Angela_2013/IMG_1278.jpg",
+            alt: "Angela 3",
+            title: "Angela 3",
+          },
+          {
+            itemImageSrc: "/escultura/Angela_2013/IMG_1279.jpg",
+            thumbnailImageSrc: "/escultura/Angela_2013/IMG_1279.jpg",
+            alt: "Angela 4",
+            title: "Angela 4",
+          },
+          {
+            itemImageSrc: "/escultura/Angela_2013/IMG_1280.jpg",
+            thumbnailImageSrc: "/escultura/Angela_2013/IMG_1280.jpg",
+            alt: "Angela 5",
+            title: "Angela 5",
+          },
+          {
+            itemImageSrc: "/escultura/Angela_2013/IMG_1288.jpg",
+            thumbnailImageSrc: "/escultura/Angela_2013/IMG_1288.jpg",
+            alt: "Angela 6",
+            title: "Angela 6",
+          },
+          {
+            itemImageSrc: "/escultura/Angela_2013/IMG_1289.jpg",
+            thumbnailImageSrc: "/escultura/Angela_2013/IMG_1289.jpg",
+            alt: "Angela 7",
+            title: "Angela 7",
+          },
+        ],
+      },
+      {
+        name: "Giovanni",
+        images: [
+          {
+            itemImageSrc: "/escultura/Giovanni/giovanni_tapat.jpg",
+            thumbnailImageSrc: "/escultura/Giovanni/giovanni_tapat.jpg",
+            alt: "Giovanni 1",
+            title: "Giovanni 1",
+          },
+        ],
+      },
+      {
+        name: "Ambra",
+        images: [
+          {
+            itemImageSrc: "/escultura/Ambra_2014/COMENZAR.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/COMENZAR.jpg",
+            alt: "Ambra 1",
+            title: "Ambra 1",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1410.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1410.jpg",
+            alt: "Ambra 2",
+            title: "Ambra 2",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1411.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1411.jpg",
+            alt: "Ambra 3",
+            title: "Ambra 3",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1417.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1417.jpg",
+            alt: "Ambra 4",
+            title: "Ambra 4",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1418.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1418.jpg",
+            alt: "Ambra 5",
+            title: "Ambra 5",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1419.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1419.jpg",
+            alt: "Ambra 6",
+            title: "Ambra 6",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1424.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1424.jpg",
+            alt: "Ambra 7",
+            title: "Ambra 7",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1426.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1426.jpg",
+            alt: "Ambra 8",
+            title: "Ambra 8",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1427.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1427.jpg",
+            alt: "Ambra 9",
+            title: "Ambra 9",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1431.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1431.jpg",
+            alt: "Ambra 10",
+            title: "Ambra 10",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1432.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1432.jpg",
+            alt: "Ambra 11",
+            title: "Ambra 11",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1433.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1433.jpg",
+            alt: "Ambra 12",
+            title: "Ambra 12",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1436.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1436.jpg",
+            alt: "Ambra 13",
+            title: "Ambra 13",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1438.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1438.jpg",
+            alt: "Ambra 14",
+            title: "Ambra 14",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1442.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1442.jpg",
+            alt: "Ambra 15",
+            title: "Ambra 15",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1443.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1443.jpg",
+            alt: "Ambra 16",
+            title: "Ambra 16",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1446.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1446.jpg",
+            alt: "Ambra 17",
+            title: "Ambra 17",
+          },
+          {
+            itemImageSrc: "/escultura/Ambra_2014/IMG_1448.jpg",
+            thumbnailImageSrc: "/escultura/Ambra_2014/IMG_1448.jpg",
+            alt: "Ambra 18",
+            title: "Ambra 18",
+          },
+        ],
+      },
+      {
+        name: "font_nens",
+        images: [
+          {
+            itemImageSrc: "/escultura/Fuente_ninos/portada.jpg",
+            thumbnailImageSrc: "/escultura/Fuente_ninos/portada.jpg",
+            alt: "Childs fountain 1",
+            title: "Childs fountain 1",
+          },
+          {
+            itemImageSrc: "/escultura/Fuente_ninos/silviaJuez1.jpg",
+            thumbnailImageSrc: "/escultura/Fuente_ninos/silviaJuez1.jpg",
+            alt: "Childs fountain 2",
+            title: "Childs fountain 2",
+          },
+          {
+            itemImageSrc: "/escultura/Fuente_ninos/silviaJuez2.jpg",
+            thumbnailImageSrc: "/escultura/Fuente_ninos/silviaJuez2.jpg",
+            alt: "Childs fountain 3",
+            title: "Childs fountain 3",
+          },
+          {
+            itemImageSrc: "/escultura/Fuente_ninos/silviaJuez3.jpg",
+            thumbnailImageSrc: "/escultura/Fuente_ninos/silviaJuez3.jpg",
+            alt: "Childs fountain 4",
+            title: "Childs fountain 4",
+          },
+          {
+            itemImageSrc: "/escultura/Fuente_ninos/silviaJuez4.jpg",
+            thumbnailImageSrc: "/escultura/Fuente_ninos/silviaJuez4.jpg",
+            alt: "Childs fountain 5",
+            title: "Childs fountain 5",
+          },
+        ],
+      },
+    ],
+  };
+});
